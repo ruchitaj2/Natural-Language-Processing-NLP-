@@ -6,3 +6,5 @@ The entire book was converted into a .pdf, then passed into the pdf to text filt
 
 The summarization also reads well, but lacks cohesion.  This summarization technique is the best performing among the three.   The point-generated deep summary model performs abstractive summarization.  It reads in 5 sentences at a time and summarizes them with new generated text.  The text lacks both cohesion and coherence and therefore does not act as a good summarizer for the input text.  The final summarizer generates smaller sentences for each sentence in the original text.  The model does actually have coherence as it summarizes the original text covers but is not very cohesive.  Ultimately, the best results are generated from the BERT Summarizer and the Automatic Summarization techniques like TextRan
 
+![](Images/Summerized%20Dataset%201.PNG)
+![](Images/Summerized%20Dataset%202.PNG)
